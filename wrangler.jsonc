@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "compatibility_date": "2025-02-11",
   "compatibility_flags": ["nodejs_compat"],
-  "account_id": "2e4a7955aa124c38058cccd43902a8a5",
+  "account_id": "990b6325961454fd7aa4445d24fd383e",
   "kv_namespaces": [
     { "binding": "BRIDGE_ACCOUNTS", "id": "13404bf6eb4f4a0a8831f6505983e4c5" },
     { "binding": "EMAIL_BODIES_2022", "id": "b3efc2dc4d864813a957d0af10bcf4bb" },
