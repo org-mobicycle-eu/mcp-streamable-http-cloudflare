@@ -1,36 +1,9 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  // MobiCycle OÜ - Email processing MCP server
+  // MobiCycle EU - MCP Streamable HTTP server
   "name": "mcp-streamable-http-cloudflare",
   "main": "src/index.ts",
   "compatibility_date": "2025-02-11",
   "compatibility_flags": ["nodejs_compat"],
-  "account_id": "990b6325961454fd7aa4445d24fd383e",
-  "kv_namespaces": [
-    { "binding": "BRIDGE_ACCOUNTS", "id": "13404bf6eb4f4a0a8831f6505983e4c5" },
-    { "binding": "EMAIL_BODIES_2022", "id": "b3efc2dc4d864813a957d0af10bcf4bb" },
-    { "binding": "EMAIL_BODIES_2023", "id": "d9f05873b1584711952566670ab7625e" },
-    { "binding": "EMAIL_BODIES_2024", "id": "1b65ad6ea0744ac4b2ed05fa08ce3da7" },
-    { "binding": "EMAIL_BODIES_2025", "id": "583a2f4f787b4928a803926da2c8dea9" },
-    { "binding": "EMAIL_BODIES_2026", "id": "0817057599ea4b65aa3671283adcbb5e" },
-    { "binding": "EMAIL_CLAIMANT_HK_LAW", "id": "6569a3d0c87b4ad897280e25695a7858" },
-    { "binding": "EMAIL_CLAIMANT_LESSEL", "id": "f94de5c0cb584d8596fcfecf853f4213" },
-    { "binding": "EMAIL_CLAIMANT_LIU", "id": "aac7e7e16f87490ba571aa9854c11e8c" },
-    { "binding": "EMAIL_CLAIMANT_RENTIFY", "id": "61d3e5e7b3e94cfab6db2aca6d05869a" },
-    { "binding": "EMAIL_COMPLAINTS_BAR_STANDARDS", "id": "142319de0a894f6da1b35ebf457b910f" },
-    { "binding": "EMAIL_COMPLAINTS_HMCTS", "id": "1f2e69dfa5db49959b5c8f98d87453d6" },
-    { "binding": "EMAIL_COMPLAINTS_ICO", "id": "e13127c545d646d8bbad29c8832193e7" },
-    { "binding": "EMAIL_COMPLAINTS_PARLIAMENT", "id": "dfff26c86d844c1eada2658f98cc5043" },
-    { "binding": "EMAIL_COMPLAINTS_PHSO", "id": "c336442195044b38b0b44fb6a7bc0c85" },
-    { "binding": "EMAIL_COURTS_ADMIN", "id": "37c7b5e5e8a84e2a8e340cb0e1b39202" },
-    { "binding": "EMAIL_COURTS_CENTRAL_LONDON", "id": "0dd9a961f8e54104a1c784fdd736d354" },
-    { "binding": "EMAIL_COURTS_CHANCERY", "id": "c0e294c679194bb2921f6faa83826d56" },
-    { "binding": "EMAIL_COURTS_CLERKENWELL", "id": "450d57986f6b47bd8e6a9881d48b0222" },
-    { "binding": "EMAIL_COURTS_APPEAL", "id": "d730d43a0ff5452b9aa387fd6ab2640e" },
-    { "binding": "EMAIL_COURTS_KINGS_BENCH", "id": "ab4eb2fdf4844dab802e5006c53fed91" },
-    { "binding": "EMAIL_COURTS_SUPREME", "id": "4272a9a3567b4827b3e6b07a9e0ec07b" },
-    { "binding": "EMAIL_GOVERNMENT_ESTONIA", "id": "e45e1cd170a04580828ac7f88c34c8f8" },
-    { "binding": "EMAIL_GOVERNMENT_UK_LEGAL", "id": "da78dcd3387040478f852eccd7fa47eb" },
-    { "binding": "EMAIL_GOVERNMENT_US_STATE", "id": "36b5178e1c83446faab3953bc49da196" }
-  ]
+  "account_id": "990b6325961454fd7aa4445d24fd383e"
 }
